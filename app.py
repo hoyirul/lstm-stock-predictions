@@ -4,14 +4,14 @@ from views import training_view, prediction_view
 
 # Konfigurasi tampilan aplikasi
 st.set_page_config(
-    page_title="Prediksi Saham",          # Nama di tab browser
+    page_title="Sistem Prediksi Saham Indra",          # Nama di tab browser
     page_icon="📈",                       # Ikon aplikasi di tab dan sidebar
     layout="wide",                        # Layout lebar
     initial_sidebar_state="expanded"     # Sidebar terbuka secara default
 )
 
 # Judul utama aplikasi
-st.title("📈 Aplikasi Prediksi Saham (LSTM Multi-Step)")
+st.title("📈 Sistem Prediksi Saham Indra")
 
 # Pilihan mode: Training atau Prediction
 mode = st.sidebar.selectbox("Pilih Mode", ["Training", "Prediction"])
